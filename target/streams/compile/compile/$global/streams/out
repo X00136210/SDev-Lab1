@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0m/home/wdd/webapps/lab1/app/controllers/HomeController.java:57:1: method render in class views.html.index cannot be applied to given types;[0m
+[0m[[0m[31merror[0m] [0m[0m  required: java.util.List<models.Product>,java.util.List<models.Category>,models.users.User[0m
+[0m[[0m[31merror[0m] [0m[0m  found: java.util.List<models.Product>,java.util.List<models.Category>,models.users.User,play.api.Environment[0m
+[0m[[0m[31merror[0m] [0m[0m  reason: actual and formal argument lists differ in length[0m
+[0m[[0m[31merror[0m] [0m[0m            return ok(index.render(productList, categoryList, User.getUserById(session().get("email")), e));[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/wdd/webapps/lab1/app/controllers/HomeController.java: /home/wdd/webapps/lab1/app/controllers/HomeController.java uses unchecked or unsafe operations.[0m
+[0m[[0m[0minfo[0m] [0m[0m/home/wdd/webapps/lab1/app/controllers/HomeController.java: Recompile with -Xlint:unchecked for details.[0m
